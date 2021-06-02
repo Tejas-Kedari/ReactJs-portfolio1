@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
         --font-light-color: #a4acc4;
         --font-dark-color: #313131;
         --font-dark-color-2: #151515;
+        --sidebar-dark-color: #191D2B;
     }
     * {
         margin: 0;
@@ -18,10 +19,19 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.2rem;
     }
 
     body {
         background: var(--background-dark-color);
+        color: var(--font-light-color)
+    }
+
+    a {
+        font-family: inherit;
+        color: inherit;
+        font-size: inherit;
     }
 `;
 
