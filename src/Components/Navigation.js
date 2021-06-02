@@ -11,7 +11,7 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/home" activeClassName="active-class">Home</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/about" activeClassName="active-class">About</NavLink>
@@ -74,6 +74,7 @@ const NavigationStyled = styled.nav`
                 padding: .2rem 0;
                 position: relative;
                 z-index: 4;
+                font-weight: 600;
                 
                 &:hover {
                     cursor: pointer;

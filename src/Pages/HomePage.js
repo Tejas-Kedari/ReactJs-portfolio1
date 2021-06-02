@@ -19,13 +19,13 @@ function HomePage() {
                     repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
                 </p>
                 <div className="icons">
-                    <a href="#" className="icon i-facebook">
+                    <a href="https://www.google.com" className="icon i-facebook">
                         <FacebookIcon />
                     </a>
-                    <a href="#" className="icon i-github">
+                    <a href="https://www.google.com" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="#" className="icon i-youtube">
+                    <a href="https://www.google.com" className="icon i-youtube">
                         <YoutubeIcon />
                     </a>
                 </div>
